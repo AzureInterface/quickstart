@@ -26,9 +26,9 @@
         "description": "The DNS prefix for the public IP address used by the Load Balancer"
       }
     },
-    "windowsserver":{
+    "windowsserver": {
       "type": "string",
-       "metadata": {
+      "metadata": {
         "description": "The version of Windows Server to use"
       },
       "defaultValue": "2016-Datacenter",
@@ -43,7 +43,7 @@
       "metadata": {
         "description": "The location of resources, such as templates and DSC modules, that the template depends on"
       },
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/active-directory-new-domain"
+      "defaultValue": "https://raw.githubusercontent.com/azureinterface/quickstart/master/activedirectory"
     },
     "_artifactsLocationSasToken": {
       "type": "securestring",
