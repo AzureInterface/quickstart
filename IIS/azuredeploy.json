@@ -8,7 +8,7 @@
       "metadata": {
         "description": "Username for the Virtual Machine."
       },
-      "defaultValue": "P@ssw0rd2016"
+      "defaultValue": "sysadmin"
     },
     "adminPassword": {
       "type": "securestring",
