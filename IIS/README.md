@@ -1,4 +1,4 @@
-#IIS Resource Manager Template
+# IIS Resource Manager Template
 
 This template deploys an IIS server running on an Azure VM. The VM is bootstrapped with a PowerShell DSC configuration located in this repo. The DSC config will install and configure IIS, ASP.NET, and create a default website. Additionally, the DSC config installs and configures the Web Deploy service so you can easily deploy to the server from Visual Studio.
 
